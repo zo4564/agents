@@ -20,6 +20,7 @@ public class Ant : MonoBehaviour
         rotation = Random.Range(-rotationSpeed, rotationSpeed);
         currentDirection = transform.forward;
         RandomSpawn(380, 210);
+        
     }
 
     void Update()

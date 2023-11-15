@@ -11,7 +11,7 @@ public class Heart : MonoBehaviour
 
     public int[] Cells;
 
-    GameObject mover;
+    GameObject moverObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +22,14 @@ public class Heart : MonoBehaviour
 
         moverOffset = new Vector3(0, 0, 10);
 
-        mover = Instantiate(PossibleCells[0], Vector3.zero, Quaternion.identity);
+        moverObject = Instantiate(PossibleCells[0], Vector3.zero, Quaternion.identity);
+        transform.position = moverObject.transform.position + moverOffset;
+        transform.SetParent(moverObject.transform, true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = mover.transform.position + moverOffset;
+       // transform.position = mover.transform.position + moverOffset;
     }
 }

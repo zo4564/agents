@@ -102,6 +102,9 @@ MonoBehaviour:
   nextRandomDirTime: 0
   randomMaxDuration: 0
   rotation: 0
+  currentDirection: {x: 0, y: 0, z: 0}
+  CellContainerPrefab: {fileID: 3884971162012537920, guid: 0141a1059341cb64983bc27f465114f0, type: 3}
+  CellContainer: {fileID: 0}
 --- !u!65 &7652218162081588087
 BoxCollider:
   m_ObjectHideFlags: 0
