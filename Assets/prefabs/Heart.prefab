@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6114129769643582771}
   - component: {fileID: 630146584380652426}
   - component: {fileID: 5524004892112357173}
+  - component: {fileID: -5282819513578665984}
   m_Layer: 0
   m_Name: Heart
   m_TagString: Untagged
@@ -119,8 +120,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe421a98a022e0647b64d73d6fab880f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moverOffset: 0
+  originOffset: {x: 0, y: 0, z: 0}
   PossibleCells:
-  - {fileID: 4105864666268176074, guid: 1b361581b3a6cdf4aa2fdd70c7db3cb3, type: 3}
   - {fileID: 4966659708873334839, guid: 0f324cb9285f2b8498e2e52e1090af1b, type: 3}
-  Cells: 
+  - {fileID: 4966659708873334839, guid: f4b5d06ad58c4894db368ed0d7ec352a, type: 3}
+  - {fileID: 4966659708873334839, guid: 659e80cb5d056764b942aa5a74d39c15, type: 3}
+  - {fileID: 4105864666268176074, guid: 1b361581b3a6cdf4aa2fdd70c7db3cb3, type: 3}
+  size: 3
+--- !u!114 &-5282819513578665984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823995294237794060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02085b2ae29dda7438eebf87f1954896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CellColor: ed33b9

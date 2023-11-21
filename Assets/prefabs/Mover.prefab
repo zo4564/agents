@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4063686493335551447}
   - component: {fileID: 9069731170462457307}
   - component: {fileID: 7652218162081588087}
+  - component: {fileID: 5813992119765346752}
   m_Layer: 0
   m_Name: Mover
   m_TagString: Untagged
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fde0a11588fe5c644a9896c892ec0cc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -103,8 +104,6 @@ MonoBehaviour:
   randomMaxDuration: 0
   rotation: 0
   currentDirection: {x: 0, y: 0, z: 0}
-  CellContainerPrefab: {fileID: 3884971162012537920, guid: 0141a1059341cb64983bc27f465114f0, type: 3}
-  CellContainer: {fileID: 0}
 --- !u!65 &7652218162081588087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126,3 +125,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5813992119765346752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4105864666268176074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02085b2ae29dda7438eebf87f1954896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CellColor: 00c2d1
