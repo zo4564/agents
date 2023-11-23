@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 823995294237794060, guid: d3160260762c1a94cb639cbbc3f51fdf, type: 3}
-  spawnCount: 25
+  spawnCount: 20
 --- !u!4 &2057747830
 Transform:
   m_ObjectHideFlags: 0
